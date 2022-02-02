@@ -1,0 +1,28 @@
+.buttons{
+    position: fixed;
+    bottom: 10vh;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.buttons .MuiIconButton-root{
+    background-color: white;
+    box-shadow: 0px 10px 40px 0px rgba(0, 0, 0, 0.3) !important;
+}
+.buttons__replay{
+    padding: 2vw !important;
+    color: #f5b748 !important;
+}
+.buttons__close{
+    padding: 2vw !important;
+    color: #EC5A69 !important;
+}
+.buttons__favorite{
+    padding: 2vw !important;
+    color: #45CD8F !important;
+}
+.buttons__location{
+    padding: 2vw !important;
+    color: #51A0FA !important;
+}
